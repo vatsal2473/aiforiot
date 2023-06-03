@@ -28,7 +28,7 @@ def show_charts():
     st.subheader('Data Information:')
     st.dataframe(df)
     st.write(df.describe())
-    chart = st.line_chart(df)
+    # chart = st.line_chart(df)
 
 show_charts()
 
